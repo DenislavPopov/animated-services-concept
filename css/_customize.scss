@@ -1,0 +1,13 @@
+// _customize.scss
+$main-color: #2DAEBF;
+$main-font: 'Inconsolata', 
+monospace;
+$removed: none;
+$visible: visible;
+@mixin transitions($transition) {
+	-webkit-transition: $transition;
+	-moz-transition: $transition;
+	-ms-transition: $transition;
+	-o-transition: $transition;
+	transition: $transition;
+}

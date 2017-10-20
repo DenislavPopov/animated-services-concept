@@ -1,0 +1,184 @@
+// input.scss
+@import 'customize';
+
+body {
+	background: url(../img/playstation-pattern.png) !important;
+}
+
+/*Header*/
+
+.site-title {
+	font-family: $main-font;
+	text-align: center;
+	color: $main-color;
+	background-image: -webkit-linear-gradient(85deg, $main-color, #f6f6f6);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 300;
+	font-size: 4em;
+	margin: 20px 0px;
+}
+
+.download {
+	font-family: $main-font;
+	background: $main-color !important;
+	border-radius: 0px;
+    @include transitions(all linear .5s !important);
+	font-size: 1.2rem !important;
+	margin: 0 0 2rem 0 !important;
+}
+
+.download:hover {
+	background: $main-color !important;
+	border-radius: 5px;
+	opacity: 0.8;
+}
+
+/*Main section*/
+
+.callout {
+	background: #fafafa !important;
+}
+
+.interactive-service-list {
+	font-family: $main-font;
+	cursor: pointer;
+	text-align: center;
+	margin: 4px;
+	background: #cccccc;
+	color: #fff;
+	border: 1px solid #4d4d4d;
+	@include transitions(all linear .3s);
+	vertical-align: middle;
+	font-weight: 700;
+	padding: 24px;
+	position: relative;
+	display: inline-block;
+	width: 47%;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 0px 1px #000;
+}
+
+.interactive-service-list:hover {
+	background: #888;
+	color: #fff;
+}
+
+.box-headings {
+	font-family: $main-font;
+	text-align: center;
+	background: #f0f0f0;
+}
+
+.styled-icons {
+	font-size: 70px;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+	color: #ffffff;
+}
+
+.active {
+	visibility: $visible;
+}
+
+.hidden, .removed {
+	display: $removed;
+}
+
+.current {
+	background: $main-color;
+}
+
+.service-title {
+	font-family: $main-font;
+	color: $main-color;
+	display: block;
+	font-size: 3em;
+	text-align: center;
+}
+
+.img-holder {
+	text-align: center;
+}
+
+.service-img {
+	border: 2px solid #2daebf;
+	box-shadow: 0px 0px 1px #000;
+}
+
+.subheading {
+	font-family: $main-font;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+hr {
+	margin: 10px !important;
+}
+
+.content {
+	font-family: $main-font;
+	text-align: justify;
+}
+
+/*Footer*/
+
+.full-width {
+	max-width: 1400px;
+}
+
+.footer {
+	background-color: $main-color;
+	font-family: $main-font;
+	padding: 2rem 4rem;
+	text-align: center;
+	color: #fff;
+}
+
+.footer i {
+	font-size: 100px;
+}
+
+.footer h4 {
+	color: #fff;
+	font-size: 1em;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-top: 2.5rem;
+	margin-bottom: 10px;
+}
+
+.footer p,
+.footer a {
+	font-weight: 300;
+	font-size: .8em;
+	color: #fff;
+}
+
+/*Responsive*/
+
+@media only screen and (min-width: 40.063em) {
+	.footer .columns:nth-child(n+2) {
+		border-left: 1px solid #cccccc;
+	}
+}
+
+.footer-links {
+	list-style-type: $removed;
+}
+
+.footer-links li {
+	margin-top: .5em;
+}
+
+@media only screen and (max-width: 434px) {
+	.interactive-service-list {
+		width: 100%;
+	}
+	ul {
+		margin: 0px !important;
+	}
+	.site-title{
+		font-size: 3rem;
+	}
+}
