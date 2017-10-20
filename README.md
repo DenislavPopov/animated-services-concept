@@ -11,9 +11,10 @@ You need to have included in your page:
 * [Foundation](https://foundation.zurb.com/)
 * [Animate.css](https://daneden.github.io/animate.css/)
 * ```animated-services.min.js```
-## Optional
+### Optional
 * [hoverIntent jQuery Plug-in](https://briancherne.github.io/jquery-hoverIntent/) - if you want to use inteligent hover detection
-
+### Demo
+* [Check demo here](https://codepen.io/DenislavPopov/pen/vePxRQ)
 ## Authors
 
 * **Denislav Popov**
