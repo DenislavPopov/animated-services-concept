@@ -16,5 +16,4 @@ You need to have included in your page:
 ### Demo
 * [Check demo here](https://codepen.io/DenislavPopov/pen/vePxRQ)
 ## Authors
-
 * **Denislav Popov**
